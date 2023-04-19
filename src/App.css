@@ -1,0 +1,88 @@
+/* Style for Todo List container */
+.todo-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  
+  /* Style for individual Todo items */
+  .todo-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .title{
+    font-size: 36px;
+    color: lime;
+    font-family: 'Roboto' , sans-serif;
+  }
+
+
+  .buttton-complete{
+    background-color: lime;
+  }
+  
+  /* Style for completed Todo items */
+  .todo-item.completed {
+    text-decoration: line-through;
+    opacity: 0.5;
+  }
+  
+  /* Style for Todo item checkbox */
+  .todo-item input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  .todo-item-change{
+    background-color: #9fa111;
+  }
+  
+  .todo-item-change , .todo-item-complete , .todo-item-delete{
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;  
+    margin-left: 10px;
+  }
+  
+  /* Style for Todo item delete button */
+  .todo-item-delete {
+  
+    background-color: #ff6666;
+    
+  }
+  
+  .todo-item-complete{
+    margin-left: 10px;
+    background-color: rgba(0, 255, 0, 0.688);
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  /* Style for add todo form */
+  .add-todo-form {
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  /* Style for add todo input field */
+  .add-todo-input {
+    flex-grow: 1;
+    margin-right: 10px;
+    padding: 5px;
+    width: 100%;
+  }
+  
+  /* Style for add todo button */
+  .add-todo-button {
+    background-color: #008000;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
