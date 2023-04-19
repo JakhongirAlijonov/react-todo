@@ -5,7 +5,7 @@ function TodoList({ todos, setTodos }) {
  
   return (
     <div>
-      {todos.length ? <></> : <div className="title">Hech narsa yo'q</div>}
+      {todos.length ? <></> : <div className="title">Hozircha hech  narsa yo'q...</div>}
         <TodoItem todos={todos} setTodos={setTodos} /> 
       
     </div>
